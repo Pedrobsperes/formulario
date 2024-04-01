@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>Criando Formulario de Contato</h2>
+    <hr>
+    <form action="enviar.php" method="post">
+        <label for="Nome">Nome:</label><br>
+        <input type="text" id="nome"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email"><br>
+        <label for="msage">Mensagem</label><br> 
+        <textarea cols="30" rows="5"></textarea><br>
+        <label>Selecione o Sexo</label><br>
+        <input type="radio">Masculino <br>
+        <input type="radio">Feminino <br>
+        <label>Selecione a Liguagem mais Usada</label><br>
+        <input type="checkbox">HTML <br>
+        <input type="checkbox">Javascript <br>
+        <input type="checkbox">Python <br>
+        <input type="checkbox">CSS <br>
+        <label>Informe sua data de Nascimento</label>
+        <input type="date"><br>
+        <input type="button" value="Enviar">
+        <input type="reset"><br><br>
+        <label>Envie seu Arquivo</label><br>
+        <input type="file" value="download"><br>
+        <select name="Cidade"> 
+            <option selected>Brasilia</option>
+            <option>São paulo</option>
+            <option>Goiania</option>
+        
+        </select>
+
+
+    </form>
+</body>
+</html>
