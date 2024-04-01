@@ -1,0 +1,14 @@
+*{
+    align-items: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: block;
+    justify-items: center;
+    margin-left: 40%;
+    padding-top: 30px;
+}
